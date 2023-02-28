@@ -3,6 +3,7 @@
 ## Cómo correr el proyecto:
 Una vez clonado el repositorio es necesario, primeramente, configurar los archivos `.env` localizados respectivamente en las carpetas `client` y `server`. Luego de ello ejecutar los siguientes comandos en consola:
 ### Frontend:
+
 ```bash
 cd ./client # Dirigirse a la carpeta client
 
@@ -14,7 +15,7 @@ npm start # Ejecutar el servidor del frontend
 
 ### Backend:
 ```bash
-cd ./server # Dirigirse a la carpeta client
+cd ./server # Dirigirse a la carpeta server
 
 npm install # Instalar las dependencias del proyecto
 
