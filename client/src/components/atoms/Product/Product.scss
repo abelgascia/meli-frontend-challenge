@@ -45,6 +45,15 @@
         margin: 0;
         display: flex;
 
+        .product__card__shipping {
+          width: 1.5rem;
+          margin-left: 1rem;
+          img {
+            width: 100%;
+            object-fit: contain;
+          }
+        }
+
         span {
           display: flex;
           font-size: 1.5rem;
