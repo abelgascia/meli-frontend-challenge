@@ -6,7 +6,11 @@ import "./Product.scss";
 
 const Product = ({ product }: any) => {
   return (
-    <article tabIndex={0} className="product__card">
+    <article
+      data-testid="product-container"
+      tabIndex={0}
+      className="product__card"
+    >
       <Link to={`/items/${product.id}`}>
         <div className="product__card__image">
           <img src={product.picture} alt="Imagen del producto" />
@@ -19,7 +23,7 @@ const Product = ({ product }: any) => {
                 <small>{formatDecimals(product.price?.decimals)}</small>
               </span>
               {product.free_shipping && (
-                <span className="product__card__shipping">
+                <span className="product__card__shippcing">
                   <img src={shipping} alt="" />
                 </span>
               )}
@@ -28,7 +32,7 @@ const Product = ({ product }: any) => {
             <span>Capital Federal</span>
           </div>
           <div className="product__title">
-            <h2>{product.title}</h2>
+            <h2 data-testid="product-title">{product.title}</h2>
           </div>
         </div>
       </Link>

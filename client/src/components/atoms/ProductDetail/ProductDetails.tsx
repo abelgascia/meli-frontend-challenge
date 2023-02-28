@@ -14,11 +14,11 @@ type Props = {
 
 const ProductDetails = ({ condition, sold_quantity, title, price }: Props) => {
   return (
-    <div className="product__details__pricebox">
+    <div data-testid="product-details" className="product__details__pricebox">
       <span>{`${
         condition === "new" ? "Nuevo" : "Usado"
       } - ${sold_quantity} vendidos`}</span>
-      <h1>{title}</h1>
+      <h1 data-testid="product-title">{title}</h1>
       <h2>
         $ {formatCurrency(price?.amount)}{" "}
         <small>{formatDecimals(price?.decimals)}</small>

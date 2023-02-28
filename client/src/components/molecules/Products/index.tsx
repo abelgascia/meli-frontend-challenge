@@ -6,10 +6,13 @@ import "./index.scss";
 const Products = () => {
   const { products } = useProductsContext();
   return (
-    <section className="products container">
-      {products.map((product, index) => {
-        return <Product product={product} key={index} />;
-      })}
+    <section data-testid="products-container" className="products container">
+      {products.length > 0 &&
+        products.map((product, index) => {
+          return <Product product={product} key={index} />;
+        })}
+
+      {products.length === 0 && <p>No hay productos</p>}
     </section>
   );
 };

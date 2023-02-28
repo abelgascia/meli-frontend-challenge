@@ -8,11 +8,7 @@ const Home = () => {
     setProducts({});
   }, []);
 
-  return (
-    <>
-      <h1>hola</h1>
-    </>
-  );
+  return <></>;
 };
 
 export default Home;
