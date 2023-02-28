@@ -29,7 +29,11 @@ const ProductDetailPage = () => {
 
   if (loading) return <Loader />;
 
-  return <ProductDetail {...selectedProduct} />;
+  return (
+    <>
+      <ProductDetail {...selectedProduct} />
+    </>
+  );
 };
 
 export default ProductDetailPage;
