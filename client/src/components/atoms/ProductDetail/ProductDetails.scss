@@ -1,0 +1,45 @@
+.product__details__pricebox {
+  flex: 0.7;
+  span {
+    font-size: 0.8rem;
+    font-weight: normal;
+    color: #444;
+    margin-bottom: 1rem;
+    display: inline-block;
+  }
+
+  h1 {
+    line-height: 1.8rem;
+    font-size: 1.5rem;
+    margin: 0;
+  }
+
+  h2 {
+    font-size: 3rem;
+    line-height: 1;
+    font-weight: normal;
+    margin: 2rem 0;
+    display: flex;
+
+    small {
+      font-size: 1.4rem;
+    }
+  }
+
+  button {
+    width: 100%;
+    font-size: 1.7rem;
+
+    color: white;
+    border: none;
+
+    cursor: pointer;
+    transition: 0.2s;
+    padding: 10px;
+    border-radius: var(--borderRadius);
+    background-color: var(--azul);
+    &:hover {
+      opacity: 0.9;
+    }
+  }
+}
