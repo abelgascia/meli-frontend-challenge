@@ -1,0 +1,30 @@
+.product__details__container {
+  background-color: white;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 5px;
+  margin-top: 1rem;
+  width: 100%;
+
+  .product__details__info {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .product__details__description {
+    margin-top: 2rem;
+
+    h2 {
+      font-size: 1.5rem;
+      font-weight: normal;
+      color: var(--negro);
+      margin-bottom: 2rem;
+    }
+
+    p {
+      font-size: 1rem;
+      color: var(--gris);
+      white-space: pre-line;
+    }
+  }
+}

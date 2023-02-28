@@ -1,0 +1,8 @@
+.products {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0 2rem 0;
+  padding: 1rem;
+  background: white;
+  border-radius: var(--borderRadius);
+}
