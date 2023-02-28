@@ -11,4 +11,6 @@ const PORT = process.env.PORT;
 app.use(cors());
 app.use("/api/items", routes);
 
-app.listen(4000, () => console.log("Servidor escuchando en el puerto", PORT));
+app.listen(PORT || 4000, () =>
+  console.log("Servidor escuchando en el puerto", PORT || 4000)
+);
