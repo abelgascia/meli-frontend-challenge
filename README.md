@@ -38,8 +38,6 @@ Me tomé la libertad de hacer un loader para mostrar mientras carga al redigir a
 
 Utilicé la herramienta `react-helmet` para agregar meta tags y mejorar así el SEO de la web.
 
-`🕷️ IMPORTANTE:` Por cuestión de tiempo y problemas con jest corriendo en typescript no pude agregar tests al proyecto.
-
 ---
 
 ## 💻 Comentarios backend
