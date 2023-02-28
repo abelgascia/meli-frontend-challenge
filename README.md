@@ -33,7 +33,7 @@ Para la parte de backend se creó una API sencilla en `node.js` utilizando `expr
 ## 👀 Comentarios Frontend
 La estructura del proyecto se basa en `atomic design` para poder ser escalable y a la vez organizado. En caso de crecer se puede optar por otro tipo de estructura, pero para la complejidad de este proyecto encajó bastante bien.
 
-Hay algunos datos en el pdf de instrucciones que no vienen en la respuesta de la API como la ciudad donde reside el vendedor (Capital Federal).
+Hay algunos datos en el pdf de instrucciones que no vienen en la respuesta de la API como la ciudad donde reside el vendedor (Capital Federal) por lo que estos datos quedaron hardcodeados para respetar el challenge.
 
 Me tomé la libertad de hacer un loader para mostrar mientras carga al redigir a `/items?search=` o `/items/MLA928585452` para mejorar la experiencia de usuario.
 
