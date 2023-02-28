@@ -1,0 +1,16 @@
+.breadcrumb {
+  list-style-type: none;
+  color: #999;
+  padding: 0;
+  font-size: 14px;
+
+  li {
+    .crumb:last-child {
+      font-weight: bold;
+    }
+
+    svg {
+      margin: 0px 10px;
+    }
+  }
+}
